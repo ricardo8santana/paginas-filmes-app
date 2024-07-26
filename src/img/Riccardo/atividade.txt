@@ -1,0 +1,109 @@
+/*
+   1º exercicio
+let x = parseInt(prompt("Digite um número"));
+let y = parseInt(prompt("Digite outro número"));
+
+if( x > 0 && y >0){
+	alert("  primeiro quadrante");
+}else if(x <0 && y>0){
+    alert("  segundo quadrante");
+}else if(x <0 && y<0){
+    alert("  terceiro quadrante");
+}else if(x < 0 && y <0){
+    alert("  quarto quadrante");
+}
+    else alert("origem");
+
+  2º exercicio
+let j= parseInt(prompt("jogador1, escolha 1 = pedra, 2 = papel, 3 = tesoura"))
+let g = parseInt(prompt("jogador2, escolha 1 = pedra,2  = papel,3 = tesoura"))
+
+
+if (j == 1 && g == 2 ) {
+    alert(" jogador2 ganhou")
+} else if(j == 1 && g == 3){
+    alert(" jogador1 ganhou")
+}else if(j == 2 && g == 1){
+    alert("jogador 1 ganhou")
+} else if(j == 2 && g == 3){
+    alert("jogador 2 ganhou")
+}else if(j == 3 && g == 1){
+    alert("jogador 1 ganhou")
+}else if(j == 3 && g == 2){
+    alert("jogador 2 ganhou")
+}else if(j == g){
+    alert("empates")
+}
+
+
+3º exercicio
+let g = prompt("Escolha o gênero")
+let c = prompt("qual sua idade")
+
+if (g == "ação"){
+    if ( c >= 18){
+        alert("filme o Todo poderoso") 
+    }else if(c >=16){
+        alert("proximo filme mortal kombat ")
+    }else if(c >=14){
+        alert(" filme Sim Senhor")
+    }else if(c >= 12){
+        alert("proximo filme o homem aranha")
+    }else if(c >=10){
+        alert("Filme Duro de Matar")
+    }
+}
+  if (g == "Animação"){
+    if (c >= 18){
+        alert("filme o Todo poderoso") 
+    }else if(c >=16){
+        alert("proximo filme mortal kombat ")
+    }else if(c >=14){
+        alert(" filme Sim Senhor")
+    }else if(c >= 12){
+        alert("proximo filme o homem aranha")
+    }else if(c >=10){
+        alert("Filme Duro de Matar")
+    }
+  }
+
+  if (g == "Aventura"){
+    if (c >=18){
+        alert("Tom raider")
+    }else if(c >=16){
+        alert("proximo filme mortal kombat ")
+    }else if(c >=14){
+        alert(" filme Sim Senhor")
+    }else if(c >= 12){
+        alert("proximo filme o homem aranha")
+    }else if(c >=10){
+        alert("Filme Duro de Matar")
+    }
+  }
+  if (g == "Comédia"){
+    if (c >=18){
+        alert("O Mentiroso")
+    }else if(c >=16){
+        alert("proximo filme mortal kombat ")
+    }else if(c >=14){
+        alert(" filme Sim Senhor")
+    }else if(c >= 12){
+        alert("proximo filme o homem aranha")
+    }else if(c >=10){
+        alert("Filme Duro de Matar")
+    }
+  }
+
+
+ 4º exercicio
+
+
+let c = (prompt("Escolha unidades de medidas"))
+let v = parseFloat(prompt("Digite o valor a ser convertido"))
+if (c == "metros"){
+    alert(" valor será", v * 100 )
+   
+}else if(c == "centimentros"){
+    alert("valor será", v*1000 )
+}
+*/

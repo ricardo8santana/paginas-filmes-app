@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aula 16</title>
+</head>
+<body>
+	 <header>
+		 <h1>Quiz de Perguntas</h1>
+	 </header>
+	   <main>
+		    <p>Qual o menor país do mundo?</p>
+			<input type="checkbox" name="país">Brasil
+            <input type="checkbox" name="pa´s" id="correto1">Vaticano
+			<input type="checkbox" name="país">Italia
+			<input type="checkbox" name="páís">Japão
+			<input type="checkbox" name="país">Colombia
+			<hr>
+
+			<p>Qual é a capital da Inglaterra?</p>
+			<input type="checkbox" name="capital">Roma
+			<input type="checkbox" name="capital">Toquio
+			<input type="checkbox" name="capital" id="correto2">Londres
+			<input type="checkbox" name="capital">Lisboa
+			<input type="checkbox" name="capitla">Madri
+		   <hr>
+
+		   <p>Qual a cidade maior do mundo?</p>
+		    <input type="checkbox" name="cidade" id="correto3">Toquio
+			<input type="checkbox" name="cidade">Nova York
+			<input type="checkbox" name="cidade">Sao Paulo
+			<input type="checkbox" name="cidade">Delhi
+			<input type="checkbox" name="cidade">Shangai
+	            <hr>
+
+		   <p>Qual o maior municipio do Brasil?</p>
+		   <input type="checkbox" name="municipio">Guarulhos
+		   <input type="checkbox" name="municipio">Uberlandia
+		   <input type="checkbox" name="municipio">Campinas
+		   <input type="checkbox" name="municipio">Uberaba
+		   <input type="checkbox" name="municipio" id="correto4">Altamira
+			<hr>
+
+		   <p> Qual o maior animal terrestre?</p>
+		   <input type="checkbox" name="animal" id="correto5">Elefante
+		   <input type="checkbox" name="animal">Girafa
+		   <input type="checkbox" name="animal">Bisao
+		   <input type="checkbox" name="animal">Tubarao
+		   <input type="checkbox" name="animal">Baleia
+		     <hr>
+
+		   <p> Quem inventor a lâmpada?</p>
+		   <input type="checkbox" name="inventor">Benjamin Franklin
+		   <input type="checkbox" name="invetor" id="correto6">Thomas Edison
+		   <input type="checkbox" name="inventor">Gham Bell
+		   <input type="checkbox" name="inventor">Isaac Newton
+		   <input type="checkbox" name="inventor">Leonardo da Vinci
+                   <hr>
+		   <p> Quem é o artista conhecido como rei do pop?</p>
+		    <input type="checkbox" name="artista">Cris Brown
+			<input type="checkbox" name="artista">Jonh Lenno
+			<input type="checkbox" name="artista">George Michael
+			<input type="checkbox" name="artista" id="correto7">Michael Jackson
+			<input type="checkbox" name="artista">Bono vox  
+				<hr>
+		   <p> Por qual apelido ficou conhecido o jogador de futebol Edson Arantes?</p>
+		   <input type="checkbox" name="apelido">Fenomeno
+		   <input type="checkbox" name="apelido" id="correto8">Pele
+		   <input type="checkbox" name="apelido">Zico
+		   <input type="checkbox" name="apelido">Garrincha
+		   <input type="checkbox" name="apelido"> Romario
+		   <hr>
+		   <p id="RespostaOp"></p>
+		   <button onclick="pergunta();"></button>
+	   </main>
+	   <footr>
+		    <p>&copy TI112 - 2024</p>
+	   </footr>
+
+</body>
+<script type="text/javascript" src="aula16.js"></script>
+</html>

@@ -1,0 +1,75 @@
+    1º
+let ano = parseInt(prompt("Digite o ano  de nascimento"))
+let anoAtual = parseInt(prompt("Ano Atual"))
+
+if(ano >= 16){
+    alert("Poderá votar")
+
+}else if(ano <= 16){
+    alert("não votar esse ano")
+}  
+   
+
+ 2º exercício
+let m = parseInt(prompt("maçãs compradas"))
+let t = parseFloat(prompt("Valor Total de Compras"))
+
+if (m <= 12){
+    alert("valor será", m * 0,30 )
+}else if(m > 12){
+    alert( "valor total será", t * 0,25)
+}
+
+
+3º
+let anguloA = parseInt(prompt("Digite o ângulo A:"));
+let anguloB = parseInt(prompt("Digite o ângulo B:"));
+let anguloC = parseInt(prompt("Digite o ângulo C:"));
+if(anguloA === 90 || anguloB === 90 || anguloC === 90 ){
+	alert("Triângulo retângulo");
+}else if(anguloA > 90 || anguloB > 90 || anguloC > 90){
+	alert("Triângulo obtusângulo");
+}else if(anguloA < 90 || anguloB < 90 || anguloC < 90){
+	alert("Triângulo acutângulo");
+}
+
+4º
+let combustivel = prompt("Digite 'G' para gasolina ou 'A' para álcool:");
+let quantidade = parseInt(prompt("Quantos litros você deseja comprar?"));
+
+let precoAlcool = (quantidade * 4.20);
+let descAlcool_3 = (precoAlcool * 3) / 100;
+let descAlcool_5 = ((precoAlcool * 5) / 100);
+
+let precoGasolina = (quantidade * 5.15);
+let descGasolina_4 = ((precoGasolina * 4) / 100);
+let descGasolina_6 = ((precoGasolina * 6) / 100);
+
+
+switch (combustivel) {
+	case "A":
+		if(quantidade <= 20){
+			alert(`O valor total é de R$: ${precoAlcool - descAlcool_3}`);
+		}else if(quantidade > 20){
+			alert(`O valor total é de R$: ${precoAlcool - descAlcool_5}`);
+		}
+		break;
+	case "G":
+		if(quantidade <= 20){
+			alert(`O valor total é de R$: ${precoGasolina - descGasolina_4}`);
+		}else if(quantidade > 20){
+			alert(`O valor total é de R$: ${precoGasolina - descGasolina_6}`);
+		}
+		break;
+}
+
+5º
+let ano = parseInt(prompt("Digite um ano:"));
+
+if ((ano % 4 === 0) && (ano % 100 !== 0)) {
+	alert("O ano é bissexto");
+}else if ((ano % 4 === 0) && (ano % 100 === 0) && (ano % 400 === 0)) {
+	alert("O ano é bissexto");
+} else alert("O ano não é bissexto");
+
+*/

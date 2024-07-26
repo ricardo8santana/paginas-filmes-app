@@ -1,0 +1,31 @@
+<input type="checkbox" name="país">Italia
+<input type="checkbox" name="páís">Japão
+<input type="checkbox" name="país">Colombia
+name="país"
+
+<input type="checkbox" name="capital">Lisboa
+<input type="checkbox" name="capitla">Madri
+<input type="checkbox" name="capital">Roma
+
+	<input type="checkbox" name="cidade">Sao Paulo
+	<input type="checkbox" name="cidade">Delhi
+	<input type="checkbox" name="cidade">Shangai
+
+<input type="checkbox" name="municipio">Guarulhos
+		   <input type="checkbox" name="municipio">Uberlandia
+		   <input type="checkbox" name="municipio">Campinas
+
+
+ <input type="checkbox" name="animal">Bisao
+		   <input type="checkbox" name="animal">Tubarao
+		   <input type="checkbox" name="animal">Baleia
+
+<input type="checkbox" name="inventor">Gham Bell
+		   <input type="checkbox" name="inventor">Isaac Newton
+		   <input type="checkbox" name="inventor">Leonardo da Vinci
+
+
+
+ <input type="checkbox" name="artista">Cris Brown
+			<input type="checkbox" name="artista">Jonh Lenno
+			<input type="checkbox" name="artista">George Michael

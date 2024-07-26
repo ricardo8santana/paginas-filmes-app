@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aula 16</title>
+</head>
+<body>
+	 <header>
+		 <h1>Quiz de Perguntas</h1>
+	 </header>
+	   <main>
+		    <p>Qual o menor país do mundo?</p>
+			<input type="checkbox" name="país" id="errado1">Brasil
+            <input type="checkbox" id="correto1">Vaticano
+			
+			<hr>
+
+			<p>Qual é a capital da Inglaterra?</p>
+			<input type="checkbox" name="capital" id="errado2">Toquio
+			<input type="checkbox" name="capital" id="correto2">Londres
+			
+		   <hr>
+
+		   <p>Qual a cidade maior do mundo?</p>
+		    <input type="checkbox" name="cidade" id="correto3">Toquio
+			<input type="checkbox" name="cidade" id="errado3">Nova York
+		
+	            <hr>
+
+		   <p>Qual o maior municipio do Brasil?</p>
+		   
+		   <input type="checkbox" name="municipio" id="errado4">Uberaba
+		   <input type="checkbox" name="municipio" id="correto4">Altamira
+			<hr>
+
+		   <p> Qual o maior animal terrestre?</p>
+		   <input type="checkbox" name="animal" id="correto5">Elefante
+		   <input type="checkbox" name="animal" id="errado5">Girafa
+		  
+		     <hr>
+
+		   <p> Quem inventor a lâmpada?</p>
+		   <input type="checkbox" name="inventor" id="errado6">Benjamin Franklin
+		   <input type="checkbox" name="invetor" id="correto6">Thomas Edison
+		   
+                   <hr>
+		   <p> Quem é o artista conhecido como rei do pop?</p>
+		   
+			<input type="checkbox" name="artista" id="correto7">Michael Jackson
+			<input type="checkbox" name="artista" id="errado7">Bono vox  
+				<hr>
+		   <p> Por qual apelido ficou conhecido o jogador de futebol Edson Arantes?</p>
+		   <input type="checkbox" name="apelido" id="errado8">Fenomeno
+		   <input type="checkbox" name="apelido" id="correto8">Pele
+		
+		   <hr>
+		   <p id="RespostaOp"></p>
+		   <button onclick="pergunta();">VerResposta</button>
+	   </main>
+	   <footr>
+		    <p>&copy TI112 - 2024</p>
+	   </footr>
+
+</body>
+<script type="text/javascript" src="aula16.js"></script>
+</html>

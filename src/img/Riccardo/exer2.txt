@@ -1,0 +1,32 @@
+let quiz1 = document.getElementById("correto1")
+let quiz2 = document.getElementById("correto2")
+let quiz3 = document.getElementById("correto3")
+let quiz4 = document.getElementById("correto4")
+let quiz5 = document.getElementById("correto5")
+let quiz6 = document.getElementById("correto6")
+let quiz7 = document.getElementById("correto7")
+let quiz8 = document.getElementById("correto8")
+let RespostaOp = document.getElementById("RespostaOp")
+
+let soma = 0
+const pergunta = () =>{
+   if(quiz1.checked ){
+      soma += 1
+   }if(quiz2.checked){
+      soma += 1
+   }if(quiz3.checked){
+      soma += 1
+   }if(quiz4.checked){
+      soma += 1
+   }if(quiz5.checked){
+      soma += 1
+   }if(quiz6.checked){
+      soma += 1
+   }if(quiz7.checked){
+      soma += 1
+   }if(quiz8.checked){
+      soma +=1
+   }
+   alert(soma) 
+   soma = 0
+}

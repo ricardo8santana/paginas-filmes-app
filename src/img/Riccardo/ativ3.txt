@@ -1,0 +1,42 @@
+
+//1º
+const dobro = (num) => {
+    let d = num + num
+    return d
+}
+alert(dobro("dobro"))
+  
+//2º
+
+const valor = function(a, b, c, d, e ){
+  let = a, b, c, d, e
+      
+    return ( a + b + c + d + e)/6
+}
+alert(valor("retorne um valor"))
+
+//3º
+
+const quadrado = (num) => {
+    let q = num * num
+    return q
+}
+ alert(quadrado(" retorne o quadrado"))
+
+
+ //4º
+function Livro (titulo, autor, ano){
+   this.titulo = titulo;
+   this.autor = autor;
+   this.ano = ano;
+  
+ }
+ Livro.prototype.detalhes = function(){
+   const d = this.titulo + this.autor
+   return d;
+ }
+ Livro.prototype.anoAtual = function(){
+   return this.ano;
+ }
+  const Livro2 = new Livro("Mindset", "Carol Dweck", 2017);
+  alert(Livro2.detalhes());

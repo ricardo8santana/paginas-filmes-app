@@ -1,0 +1,147 @@
+body {
+  background-color: #000!important;
+  color: #fcfcfc!important;
+  font-family: 'Roboto', sans-serif!important;
+}
+
+.card-filme {
+  /* background-color: #6c6b6b; */
+  color: #fcfcfc;
+  width: 80%;
+  text-align: center;
+}
+
+.card-filme img{
+  width: 80%;
+  height: 350px;
+}
+
+.section-itens {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3{
+  margin: 0;
+  margin-top: 10px;
+}
+
+.sub-title {
+  border-left: red solid 3px;
+  padding-left: 8px;
+  margin: 15px;
+}
+
+.sub-title-mt{
+  margin-top: 120px;
+}
+
+.titulo-card {
+  display: flex;
+  justify-content: end;
+  position: relative; 
+}
+
+.titulo-card .fa-star {
+  position: absolute;
+  filter: drop-shadow(1px 0px 7px #fff);
+}
+
+.size-img {
+  height: 200px;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #141414;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.carousel-inner{
+  height: 470px;
+}
+
+.exibe-titulo-body{
+  display: flex;
+  margin: 100px 40px;
+}
+
+.exibe-titulo-body img {
+  width: 20%;
+  height: 450px;
+}
+
+.exibe-titulo-desc{
+  margin: 0 20px;
+  width: 60%;
+}
+
+.accordion-item, 
+.accordion-header button {
+  background-color: #fff0!important;
+  color: #fff!important;
+  border: 1px solid #f0f0f0!important;
+}
+
+.exibe-titulo-video{
+  height: 450px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none!important;
+ }
+ 
+/**************RESPONSIVIDADE************/
+@media screen and (max-width: 600px) {
+  .card-filme{
+    margin-top: 10px;
+  }
+
+  .section-itens{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card-filme img{
+    height: 200px;
+  }
+
+  .titulo-font{
+    font-size: 13px!important;
+  }
+
+  .carousel-inner{
+    height: 290px;
+  }
+
+  .exibe-titulo-body{
+    margin: 130px 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .exibe-titulo-body img {
+    width: 60%;
+    height: 50%;
+  }
+  
+  .exibe-titulo-desc {
+    margin: 0 10px;
+    width: 100%;
+  }
+
+  .exibe-titulo-video{
+    height: auto;
+  }
+
+}
