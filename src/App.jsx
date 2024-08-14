@@ -1,10 +1,11 @@
-
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Home from './components/Home';
 import ExibeTitulo from './components/ExibeTitulo';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { fetchTopTitulos } from './services/tmdbService';
+import { useState, useEffect } from 'react';
 
 import Filme1 from './img/Filme1.jpg';
 import Filme2  from './img/Filme2.jpg';
@@ -14,6 +15,22 @@ import Serie2 from './img/Serie2.jpg';
 import Serie3 from './img/Serie3.jpg';
 
 function App() {
+  const [catalagoTitulos, setCatalagoTitulos] = useState([]);
+
+  useEffect(() => {
+    const fetchTitulos = async () => {
+      try{
+        const dados = await fetchTopTitulos();
+        setCatalagoTitulos(dados);
+      }catch (error){
+        console.error("Error ao buscar titulos:", error);
+
+      }
+    }
+    fetchTitulos();
+  }, []);
+
+  0
   const CatalagoFilmes = [
     {nome:'Guardiões da Galaxia', imagem: Filme1},
     {nome:'Rota de Fuga 3', imagem: Filme2},
@@ -43,7 +60,7 @@ function App() {
     },
     {
       path: '/ExibeTitulo/:nome',
-      element: <ExibeTitulo catalago={CatalagoFilmes}/>
+      element: <ExibeTitulo catalago={catalagoTitulos}/>
     }
   ]) 
 

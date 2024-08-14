@@ -16,12 +16,12 @@ const ExibeTitulo = ({catalago}) => {
                     <Accordion defaultActiveKey='0'>
                         <Accordion.Item eventKey='0'>
                             <Accordion.Header>Sinopse</Accordion.Header>
-                            <Accordion.Body>{buscaFilme.nome}</Accordion.Body>
+                            <Accordion.Body>{buscaFilme.sinopse}</Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey='1'>
                             <Accordion.Header>Trailer</Accordion.Header>
                             <Accordion.Body>
-                                <iframe className='exibe-titulo-video' src="https://www.youtube.com/embed/6sP5mtiUQ90" title="DPA3 – Uma Aventura No Fim Do Mundo | Trailer Oficial" 
+                                <iframe className='exibe-titulo-video' src={`https://www.youtube.com/embed/${buscaFilme.trailer}`} title="DPA3 – Uma Aventura No Fim Do Mundo | Trailer Oficial" 
                                                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </Accordion.Body>
