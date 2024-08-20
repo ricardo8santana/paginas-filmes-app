@@ -7,7 +7,7 @@ const fetchTrailer = async (id, tipo) => {
         const response = await axios.get(`https://api.themoviedb.org/3/${tipo}/${id}/videos?api_key=${apiKey}&language=pt-BR`);
         const trailer = response.data.results[0].key;
         return trailer;
-    }catch(error){
+    }catch(error){ 
         console.error("Erro ao buscar trailer", error);
         return null;
     }
