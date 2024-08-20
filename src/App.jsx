@@ -30,7 +30,6 @@ function App() {
     fetchTitulos();
   }, []);
 
-  0
   const CatalagoFilmes = [
     {nome:'Guardiões da Galaxia', imagem: Filme1},
     {nome:'Rota de Fuga 3', imagem: Filme2},
